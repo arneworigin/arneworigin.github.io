@@ -12,11 +12,12 @@
 	<a-scene embedded arjs='patternRatio: 0.9'>
 		<a-marker type="pattern" url="../pattern-2.patt">
 			<a-entity
-				position="-1 0 0"
-				scale="1 1 1"
-				gltf-model="../assets/scene.gltf"
+				position="0 0 0"
+				scale="0.1 .1 .1"
+				gltf-model="../assets/GUYgltf/scene.glb"
+				animation-mixer="clip: Dancing01"
 			></a-entity>
-            <a-entity
+            <!-- <a-entity
 				position="0 0 0"
 				scale=".5 .5 .5"
 				gltf-model="../assets/scene.gltf"
@@ -25,7 +26,7 @@
 				position="1 0 0"
 				scale="1 1 1"
 				gltf-model="../assets/scene.gltf"
-			></a-entity>
+			></a-entity> -->
 		</a-marker>
 		<a-entity camera></a-entity>
 	</a-scene>
